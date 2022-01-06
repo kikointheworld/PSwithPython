@@ -1,3 +1,7 @@
+'''
+https://www.acmicpc.net/problem/1449
+'''
+
 n, l = map(int, input().split())
 
 list1 = list(map(int, input().split()))
@@ -21,9 +25,6 @@ for i in range(n):
         else:
             ans += 1
             target = list1[i] + l - 1
-
-    
-
 
 
 print(ans)
