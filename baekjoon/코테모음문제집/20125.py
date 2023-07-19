@@ -1,5 +1,3 @@
-
-
 n = int(input())
 MAP = [input() for i in range(n)]
 
@@ -44,9 +42,6 @@ for i in range(1, n - 1):
 
             left_leg_y, left_leg_x = i + tmp + 1, j - 1
             right_leg_y, right_leg_x = i + tmp + 1, j + 1
-
-            # print("left", left_leg_y, left_leg_x)
-            # print("right", right_leg_y, right_leg_x)
 
             # 허리
             tmp = 1
