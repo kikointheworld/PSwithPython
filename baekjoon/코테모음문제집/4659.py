@@ -52,4 +52,4 @@ while (True):
     if check_1(tc) and check_2(tc) and check_3(tc):
         print(f'<{tc}> is acceptable.')
     else:
-        print(f'<{tc}> is not acceptable')
+        print(f'<{tc}> is not acceptable.')
