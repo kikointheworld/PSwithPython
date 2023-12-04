@@ -8,14 +8,12 @@ tmp_list = []
 
 max_a = 0
 max_b = 0
-max_i = 0
 for i in range(n):
     a, b = map(int, input().rstrip().split())
     tmp_list.append([a, b])
     if b > max_b:
         max_a = a
         max_b = b
-        max_i = i
 # d = [0] * ( + 1)
 
 tmp_list.sort(key = lambda x : x[0])
@@ -49,8 +47,6 @@ for i in range(n - 2, -1, -1):
         ans += (x - tmp_list[i][0]) * y
         x = tmp_list[i][0]
         y = tmp_list[i][1]
-
-
 
 
 print(ans + max_b)
