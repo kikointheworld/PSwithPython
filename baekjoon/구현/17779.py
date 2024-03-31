@@ -74,7 +74,6 @@ for x in range(1, n - 1):
                     candidates += 1
 
                     print("prinitinti")
-                    graph = [[0] * (n + 1) for _ in range(n + 1)]
                     for i in graph:
                         print(i)
 

@@ -1,13 +1,7 @@
 # 16:40
+tmp = 0
 
-import sys
-from collections import deque
-from itertools import permutations
+for i in range(1, 17):
+    tmp += i
 
-list1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-list2 = [[1, 2, 2], [4, 5, 6], [7, 8, 9]]
-
-if list1 == list2:
-    print(0)
-else:
-    print(-1)
+print(tmp)
